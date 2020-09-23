@@ -1,0 +1,6 @@
+framework module hybrid_navigator {
+  umbrella header "hybrid_navigator-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,31 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+#flutter_application_path = '../my_flutter'
+#load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+#pod 'flutter_module', :path => "../hb_flutter_module/build_framework"
+#eval(File.read(File.join('../hb_flutter_module', 'pod_bitcode.rb')), binding)
+
+target 'DemoApp' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for DemoApp
+#  pod 'Flutter', :podspec => './Flutter/Debug/Flutter.podspec'
+  
+  
+#  install_all_flutter_pods(flutter_application_path)
+
+#  pod 'WGMFlutter', :path=>'./DevelopPods/WGMFlutter'
+
+  target 'DemoAppTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'DemoAppUITests' do
+    # Pods for testing
+  end
+
+end
